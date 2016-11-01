@@ -4,7 +4,7 @@
   left: 0;
   bottom: 0;
   width: 88px;
-  background-color: #feebb5;
+  background-color: #2a3542;
   h1 {
     text-align: center;
     height: 68px;
@@ -12,6 +12,28 @@
       color: #f60;
     }
   }
+
+  .sider-nav {
+    li{
+      a {
+        display: block;
+        color: #aeb2b7;
+        padding: 15px 10px;
+        font-size: 14px;
+        i {
+          margin-right: 8px;
+        }
+        &:hover, &.active {
+          color: white;
+          background-color: #35404d;
+          i {
+            color: #FF6C60;
+          }
+        }
+      }
+    }
+  }
+
   .page-sider-logo {
     position: absolute;
     bottom: 0;

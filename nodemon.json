@@ -11,8 +11,5 @@
     "gulpfile.js",
     "nodemon.json",
     "package.json"
-  ],
-  "watch": [
-    "serve/*"
   ]
 }

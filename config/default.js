@@ -19,9 +19,9 @@ export default Object.assign({}, packson, {
       src: rooter('app/styles/images'),
       dest: rooter('assets/images')
     },
-    fonts: {
+    font: {
       src: rooter('app/styles/fonts'),
-      dest: rooter('assets/fonts')
+      dest: rooter('assets/css')
     },
     js: {
       entry: rooter('app/pages'),

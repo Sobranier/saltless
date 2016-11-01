@@ -15,10 +15,6 @@ class Test extends Component {
 
       return (
         <div>
-          <h2>{testData.count}</h2>
-          <Link to="/">首页</Link>
-          <Link to="/test1">test1</Link>
-          <Link to="/test2/31">test2</Link>
           <h3>{this.props.params.toString()}</h3>
         </div>
       );
